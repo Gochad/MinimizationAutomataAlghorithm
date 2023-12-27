@@ -1,0 +1,10 @@
+q0 q1q2q3 q4 
+q0 
+q4 
+0 1 
+q0 0 q1q2q3
+q0 1 q1q2q3
+q1q2q3 0 q1q2q3
+q1q2q3 1 q4
+q4 0 q4
+q4 1 q4

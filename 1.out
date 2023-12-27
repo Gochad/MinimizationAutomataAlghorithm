@@ -1,0 +1,10 @@
+A AB AC 
+A
+AC 
+0 1 
+A 0 AB
+A 1 A
+AB 0 AB
+AB 1 AC
+AC 0 AB
+AC 1 A

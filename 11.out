@@ -1,0 +1,14 @@
+q6 q0q4 q1q7 q3q5 q2 
+q0
+q2 
+0 1 
+q6 0 q6
+q6 1 q0q4
+q0q4 0 q1q7
+q0q4 1 q3q5
+q1q7 0 q6
+q1q7 1 q2
+q3q5 0 q2
+q3q5 1 q6
+q2 0 q0q4
+q2 1 q2
