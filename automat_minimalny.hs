@@ -1,17 +1,17 @@
--- Deterministyczny automat skończony 𝒜 to piątka 𝒜 = (𝑄, Σ, 𝛿, 𝑞0, 𝐹),
--- gdzie:
--- • 𝑄 jest skończonym zbiorem stanów
--- • Σ jest skończonym zbiorem symboli wejściowych (alfabet taśmy)
--- • 𝛿:𝑄 × Σ → 𝑄 jest funkcją przejścia
--- • 𝑞0 ∈ 𝑄 jest stanem początkowym
--- • 𝐹 ⊆ 𝑄 jest zbiorem stanów końcowych
+-- A deterministic finite automaton 𝒜 is defined by the quintuple 𝒜 = (𝑄, Σ, 𝛿, 𝑞0, 𝐹),
+-- where:
+-- • 𝑄 is a finite set of states
+-- • Σ is a finite set of input symbols (tape alphabet)
+-- • 𝛿:𝑄 × Σ → 𝑄 is the transition function
+-- • 𝑞0 ∈ 𝑄 is the initial state
+-- • 𝐹 ⊆ 𝑄 is the set of final states
 
--- plik ma być zbudowany tak:
--- A B C <- wszystkie stany
--- A <- stan początkowy
--- C <- stany końcowe
--- 0 1 <- symbole taśmy
--- A 0 B <- funkcja przejść
+-- The file should be structured as follows:
+-- A B C <- all states
+-- A <- initial state
+-- C <- final states
+-- 0 1 <- tape symbols
+-- A 0 B <- transition function
 -- A 1 A
 -- B 0 B
 -- B 1 C
@@ -277,5 +277,3 @@ main = do
     dfa2file writeFileHandle (minimize (convert automata))
     hClose readFileHandle
     hClose writeFileHandle
-
-
